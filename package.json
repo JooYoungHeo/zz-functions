@@ -2,5 +2,13 @@
   "name": "zigzag-function",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test:alterDate": "./node_modules/.bin/mocha -b test/alterDate.test.js",
+    "test:all": "./node_modules/.bin/mocha -b"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
 }
